@@ -1,12 +1,14 @@
 #include <string>
 #include <vector>
 #include<iostream>
+#include<list>
 using namespace std;
 #include<algorithm>
-
+      
 string solution(string new_id)
 {
     string :: iterator it;
+    list<int> vxec;
     for (it = new_id.begin(); it < new_id.end(); it++)
     {
         if (*it >= 'A' && *it <= 'Z')
