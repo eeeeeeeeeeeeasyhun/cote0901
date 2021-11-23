@@ -59,7 +59,7 @@ string solution(string new_id)
     if (new_id.length() <= 2)
     {
         for (int i = 0; new_id.length() < 3; i++)
-        {
+        {    
             new_id += (new_id.back());
         }                  
     }
