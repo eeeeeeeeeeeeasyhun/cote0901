@@ -63,7 +63,7 @@ string solution(string new_id)
             new_id += (new_id.back());
         }                  
     }
-        
+              
 
 
     //for (int i = 0; i < new_id.length(); i++)
