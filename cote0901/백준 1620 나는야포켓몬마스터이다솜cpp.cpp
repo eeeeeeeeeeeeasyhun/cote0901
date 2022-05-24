@@ -17,14 +17,14 @@ int main()
 
 	vector<string> name;
 	map<string, int> m1;
-
+	
 	vector<string> ans;
 	vector<string> tmp; // 입력받을예정
 
 
 	cin >> n >> m;
 
-	for (int i = 1; i <= n; i++)
+	for (int i = 0; i < n; i++)
 	{
 		string s1;
 		cin >> s1;
