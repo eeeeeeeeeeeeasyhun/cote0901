@@ -25,7 +25,7 @@ void dfs(int idx, int len)
 			if (!visit[i]) 
 			{
 				visit[i] = true;
-				arr[k] = i;
+				arr[k] = i;     
 				dfs(k + 1);
 				visit[i] = false;
 			}
