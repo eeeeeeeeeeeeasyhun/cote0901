@@ -18,7 +18,7 @@ void dfs(int idx, int len)
 		cout << "\n";
 
 	}
-	else 
+	else  
 	{
 		for (int i = 1; i <= N; i++)
 		{
@@ -32,7 +32,7 @@ void dfs(int idx, int len)
 		}
 	}
 
-}
+}    
 
 int main()
 {
