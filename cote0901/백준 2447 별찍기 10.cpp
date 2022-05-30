@@ -8,7 +8,7 @@ void star(int i, int j, int num)
     }
     else
     {
-        if (num / 3 == 0)
+        if (num / 3 == 0) 
             cout << '*';
         else
             star(i, j, num / 3);
