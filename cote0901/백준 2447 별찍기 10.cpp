@@ -7,7 +7,7 @@ void star(int i, int j, int num)
         cout << ' ';
     }
     else
-    {
+    {    
         if (num / 3 == 0) 
             cout << '*';
         else
