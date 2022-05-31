@@ -10,7 +10,7 @@ int main()
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-
+	  
 	int N = 0, M = 0;
 	cin >> N >> M;
 
