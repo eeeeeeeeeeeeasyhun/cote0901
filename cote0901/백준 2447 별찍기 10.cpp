@@ -5,8 +5,8 @@ void star(int i, int j, int num)
 {
     if ((i / num) % 3 == 1 && (j / num) % 3 == 1) {
         cout << ' ';    
-    }
-    else
+    }    
+    else   
     {    
         if (num / 3 == 0) 
             cout << '*';
@@ -15,7 +15,7 @@ void star(int i, int j, int num)
     }
 }
 
-
+   // 2312 
 
 
 
