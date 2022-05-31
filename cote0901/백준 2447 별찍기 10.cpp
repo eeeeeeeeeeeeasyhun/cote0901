@@ -4,7 +4,7 @@ using namespace std;
 void star(int i, int j, int num)
 {
     if ((i / num) % 3 == 1 && (j / num) % 3 == 1) {
-        cout << ' ';
+        cout << ' ';    
     }
     else
     {    
