@@ -138,5 +138,8 @@
     <ClCompile Include="백준 2447 별찍기 10.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="백준 11729 하노이탑.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
