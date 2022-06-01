@@ -21,7 +21,7 @@ int main()
 	for (int i = 0; i < N; i++)
 	{
 		cin >> s1;
-		m1.emplace(s1, 1);
+		m1.emplace(s1, 1);    
 	}
 
 	for (int i = 0; i < M; i++)
