@@ -22,7 +22,6 @@ int FuncZ(int n, int r, int c)
 
 
 		return   3 * half * half + FuncZ(n - 1, r- half, c- half); //4»çºÐ¸é
-
 	
 
 }	
