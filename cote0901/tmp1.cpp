@@ -29,7 +29,10 @@ void main()
 
 		else
 			arr1[2] += arr[i];
-	}
+	
+
+
+
 
 	for (int i = 0; i < 3; i++)
 	{
@@ -37,3 +40,8 @@ void main()
 	}
 
 }
+
+
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
