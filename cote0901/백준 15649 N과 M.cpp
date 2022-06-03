@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int N = 0, M = 0;
+int N, M;
 int iArr[10];
 bool iCheck[10];
 
@@ -14,7 +14,7 @@ void dfs(int k)
 		{
 			cout << iArr[i] << " ";
 		}
-		cout << endl;
+		cout << "\n";
 	}
 	else
 	{
@@ -22,8 +22,8 @@ void dfs(int k)
 		{
 			if (!iCheck[i])
 			{
-				iArr[k] = i;
 				iCheck[i] = true;
+				iArr[k] = i;
 				dfs(k + 1);
 				iCheck[i] = false;
 			}

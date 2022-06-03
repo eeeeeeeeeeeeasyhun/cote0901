@@ -18,11 +18,11 @@ void dfs(int k)
 		cout << "\n";
 
 	}
-	else
+	else 
 	{
 		for (int i = 1; i <= N; i++)
 		{
-			if (!visit[i])
+			if (!visit[i]) 
 			{
 				visit[i] = true;
 				arr[k] = i;
@@ -36,7 +36,7 @@ void dfs(int k)
 
 int main()
 {
-
+	
 	cin >> N >> M;
 	dfs(0);
 
