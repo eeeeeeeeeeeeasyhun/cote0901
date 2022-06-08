@@ -12,10 +12,10 @@ int main()
 		int M;
 		vector<int> iArr;
 		vector<int> ans;
-		vector<int> SortV;
+		vector<int> SortV;    
 	
 		for (int i = 0; i < M; i++)
-		{
+		{  
 			int M;
 			
 			
