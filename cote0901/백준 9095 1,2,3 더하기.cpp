@@ -11,8 +11,7 @@ int main()
 	while (TestCase--)
 	{
 		int N;
-		cin >> N;  
-
+		cin >> N    
 		dp[1] = 1;            
 		dp[2] = 2;
 		dp[3] = 4;           
