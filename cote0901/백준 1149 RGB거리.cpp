@@ -14,7 +14,7 @@ int main()
 	House[0][0] = 0;
 	House[0][1] = 0;
 	House[0][2] = 0;
-
+	     
 
 	for (int i = 1; i <=N; i++)
 	{
