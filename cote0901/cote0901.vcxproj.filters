@@ -180,5 +180,8 @@
     <ClCompile Include="프로그래머스 최댓값과 최소값.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0619test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
