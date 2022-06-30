@@ -38,7 +38,7 @@ string solution(string s) {
 
 
 }
-int main()
+int main()   
 {
     string a;
     cin >> a;

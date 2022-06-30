@@ -180,5 +180,11 @@
     <ClCompile Include="프로그래머스 최댓값과 최소값.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="백준 12865 평범한배낭.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="백준 1655 가운데를 말해요.cpp">
+      <Filter>소스 파일\리소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
