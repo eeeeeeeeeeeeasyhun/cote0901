@@ -4,7 +4,7 @@
 #include<iostream>
 #include<stack>
 #include<queue>
-using namespace std;
+using namespace std;   
 
 int main()
  {
@@ -12,4 +12,4 @@ int main()
 	q.front().push(1,1,1);
 
 		
-}  
+}      
