@@ -5,7 +5,7 @@
 #include<stack>
 #include<queue>       
 using namespace std;   
-
+    
 int main()
  {     
 	queue<tuple<int, int, int>> q;      
