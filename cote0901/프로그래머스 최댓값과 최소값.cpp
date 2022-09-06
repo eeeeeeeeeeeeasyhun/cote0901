@@ -22,7 +22,6 @@ string solution(string s) {
         else if (s[i] == '-')
         {
             sTmp += '-';
-            sTmp += s[i + 1]; 
             i++;
         }
         else
