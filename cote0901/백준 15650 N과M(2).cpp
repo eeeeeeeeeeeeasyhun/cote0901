@@ -6,12 +6,12 @@ int iArr[9];
 bool bVisit[9];
 void dfs(int k, int cur)
 {
-	if (k == M) //끝나는부분
+	if (k == M) // 
 	{
 		{
 			for (int i = 0; i < M; i++)
 			{
-				cout << iArr[i] << " ";
+				cout << iArr[i] << " ";  
 			}
 			cout << "\n";
 		}

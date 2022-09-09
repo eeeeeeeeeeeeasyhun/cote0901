@@ -1,187 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="소스 파일\리소스 파일">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="cote0901.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준2675.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준1157.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준1152cpp.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준10872.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10870.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2447.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="코챌.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="코챌4.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11179.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2798.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15649.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15650.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15651.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="15652.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1003.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1904.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9461.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="tmp1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="asasdfsd.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="gasdfqwer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="asdfsfs.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="프로그래머스_신규아이디추천cpp.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="프로그래머스_숫자문자열과영단어.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준우수마을.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="최단작업우선스케줄링.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준17831 대기업승범이네.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준10815.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준14425 문자열집합.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 1620 나는야포켓몬마스터이다솜cpp.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준10816 숫자카드2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 1764 듣보잡.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 1269 대칭차집합.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준11478 서로다른부분문자열의개수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 15649 N과 M.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 15650 N과M(2).cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 1629 곱셈.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 10872 팩토리얼.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 10870 피보나치 5.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 17478 재귀함수가뭔가요.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 2447 별찍기 10.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 11729 하노이탑.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 1074 Z.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 15651 N과 M %283%29.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 15652 N과 M (4).cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 9663  N-Queen .cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 1182 부분수열의 합.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 14888 연산자끼워넣기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 2696 중앙값 구하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 24416 알고리즘수업 - 피보나치수 1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 1463 1로만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 9095 1,2,3 더하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준 1149 RGB거리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="프로그래머스 최댓값과 최소값.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="0619test.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+    <ClCompile Include="0619test.cpp" />
+    <ClCompile Include="1003.cpp" />
+    <ClCompile Include="10870.cpp" />
+    <ClCompile Include="11179.cpp" />
+    <ClCompile Include="15649.cpp" />
+    <ClCompile Include="15650.cpp" />
+    <ClCompile Include="15651.cpp" />
+    <ClCompile Include="15652.cpp" />
+    <ClCompile Include="1904.cpp" />
+    <ClCompile Include="2447.cpp" />
+    <ClCompile Include="2798.cpp" />
+    <ClCompile Include="9461.cpp" />
+    <ClCompile Include="asasdfsd.cpp" />
+    <ClCompile Include="asdfsfs.cpp" />
+    <ClCompile Include="cote0901.cpp" />
+    <ClCompile Include="gasdfqwer.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="tmp1.cpp" />
+    <ClCompile Include="백준 1074 Z.cpp" />
+    <ClCompile Include="백준 10870 피보나치 5.cpp" />
+    <ClCompile Include="백준 10872 팩토리얼.cpp" />
+    <ClCompile Include="백준 1149 RGB거리.cpp" />
+    <ClCompile Include="백준 11729 하노이탑.cpp" />
+    <ClCompile Include="백준 1182 부분수열의 합.cpp" />
+    <ClCompile Include="백준 1269 대칭차집합.cpp" />
+    <ClCompile Include="백준 12865 평범한배낭.cpp" />
+    <ClCompile Include="백준 1463 1로만들기.cpp" />
+    <ClCompile Include="백준 14888 연산자끼워넣기.cpp" />
+    <ClCompile Include="백준 15649 N과 M.cpp" />
+    <ClCompile Include="백준 15650 N과M(2).cpp" />
+    <ClCompile Include="백준 15651 N과 M %283%29.cpp" />
+    <ClCompile Include="백준 15652 N과 M (4).cpp" />
+    <ClCompile Include="백준 1620 나는야포켓몬마스터이다솜cpp.cpp" />
+    <ClCompile Include="백준 1629 곱셈.cpp" />
+    <ClCompile Include="백준 17478 재귀함수가뭔가요.cpp" />
+    <ClCompile Include="백준 1764 듣보잡.cpp" />
+    <ClCompile Include="백준 24416 알고리즘수업 - 피보나치수 1.cpp" />
+    <ClCompile Include="백준 2447 별찍기 10.cpp" />
+    <ClCompile Include="백준 2696 중앙값 구하기.cpp" />
+    <ClCompile Include="백준 9095 1,2,3 더하기.cpp" />
+    <ClCompile Include="백준 9663  N-Queen .cpp" />
+    <ClCompile Include="백준10815.cpp" />
+    <ClCompile Include="백준10816 숫자카드2.cpp" />
+    <ClCompile Include="백준10872.cpp" />
+    <ClCompile Include="백준11478 서로다른부분문자열의개수.cpp" />
+    <ClCompile Include="백준1152cpp.cpp" />
+    <ClCompile Include="백준1157.cpp" />
+    <ClCompile Include="백준14425 문자열집합.cpp" />
+    <ClCompile Include="백준17831 대기업승범이네.cpp" />
+    <ClCompile Include="백준2675.cpp" />
+    <ClCompile Include="백준우수마을.cpp" />
+    <ClCompile Include="최단작업우선스케줄링.cpp" />
+    <ClCompile Include="코챌.cpp" />
+    <ClCompile Include="코챌4.cpp" />
+    <ClCompile Include="프로그래머스 최댓값과 최소값.cpp" />
+    <ClCompile Include="프로그래머스_숫자문자열과영단어.cpp" />
+    <ClCompile Include="프로그래머스_신규아이디추천cpp.cpp" />
   </ItemGroup>
 </Project>
