@@ -26,7 +26,7 @@ void dfs(int k, int cur)
 			{
 				bVisit[i] = true;
 				iArr[k] = i;
-				dfs(k + 1, i);
+				dfs(k + 1, i);           
 				bVisit[i] = false;
 			}
 		}
