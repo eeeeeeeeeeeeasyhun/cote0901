@@ -22,7 +22,7 @@ int main()
 		cin >> tmpstr;
 
 		s1.insert(tmpstr);
-
+		   
 	}
 
 
