@@ -58,5 +58,7 @@
     <ClCompile Include="프로그래머스 최댓값과 최소값.cpp" />
     <ClCompile Include="프로그래머스_숫자문자열과영단어.cpp" />
     <ClCompile Include="프로그래머스_신규아이디추천cpp.cpp" />
+    <ClCompile Include="백준 1085 직사각형에서 탈출cpp.cpp" />
+    <ClCompile Include="백준 25501 재귀의 귀재.cpp" />
   </ItemGroup>
 </Project>
