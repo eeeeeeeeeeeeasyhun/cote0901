@@ -17,7 +17,7 @@ void main()
 	{
 		cin >> iTmp;
 		arr.push_back(iTmp);
-	}
+	}     
 
 	for (int i = 0; i < N; i++)
 	{
