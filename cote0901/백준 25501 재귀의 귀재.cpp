@@ -37,5 +37,5 @@ int main()
         cout << isPalindrome(sInput.c_str()) <<" " <<iNum << endl;
         iNum = 0;
     }
-
+        
 }
