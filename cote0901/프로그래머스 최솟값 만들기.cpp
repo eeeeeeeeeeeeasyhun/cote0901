@@ -6,28 +6,16 @@ using namespace std;
 int solution(vector<int> A, vector<int> B)
 {
     int answer = 0;
-
-    vector<int> vTmp, vTmp2;
-
-    sort(A.front(), A.back());
-    sort(B.front(), B.back());
+    sort(A.begin(), A.end());
+    sort(B.begin(), B.end());
 
     int iSize = A.size();
 
     for (int i = 0; i < A.size(); i++)
     {
 
-        answer += A[i] * B[iSize - i];
+        answer += A[i] * B[iSize - i - 1];
     }
+
     return answer;
-
-}
-
-void main()
-{
-    vector<int> a, b;
-
-    
-
-
-}
+}u
