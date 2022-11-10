@@ -69,5 +69,7 @@
     <ClCompile Include="프로그래머스 카펫.cpp" />
     <ClCompile Include="프로그래머스 짝지어 제거하기.cpp" />
     <ClCompile Include="프로그래머스 영어 끝말잇기cpp.cpp" />
+    <ClCompile Include="프로그래머스 예상대진표.cpp" />
+    <ClCompile Include="프로래머스_점프와순간이동.cpp" />
   </ItemGroup>
 </Project>
