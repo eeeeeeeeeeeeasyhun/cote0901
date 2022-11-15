@@ -71,5 +71,7 @@
     <ClCompile Include="프로그래머스 영어 끝말잇기cpp.cpp" />
     <ClCompile Include="프로그래머스 예상대진표.cpp" />
     <ClCompile Include="프로래머스_점프와순간이동.cpp" />
+    <ClCompile Include="프로그래머스 멀리뛰기cpp.cpp" />
+    <ClCompile Include="프로그래머스 [1차]캐시.cpp" />
   </ItemGroup>
 </Project>
