@@ -12,7 +12,7 @@ int solution(string s)
     {
         for (int j = 0; j < s.length(); j++)
         {
-            if()
+            if ();
 
             else if (s[i] == '[')
                 s1.push('[');

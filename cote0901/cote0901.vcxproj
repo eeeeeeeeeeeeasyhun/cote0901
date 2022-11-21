@@ -346,6 +346,7 @@
     <ClCompile Include="프로그래머스 올바른괄호.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="프로그래머스 이중순위우선큐2.cpp" />
     <ClCompile Include="프로그래머스 이진 변환 반복하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
