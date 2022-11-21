@@ -73,6 +73,6 @@
     <ClCompile Include="프로래머스_점프와순간이동.cpp" />
     <ClCompile Include="프로그래머스 멀리뛰기cpp.cpp" />
     <ClCompile Include="프로그래머스 [1차]캐시.cpp" />
-    <ClCompile Include="프로그래머스 이중순위우선큐2.cpp" />
+    <ClCompile Include="백준 1260 DFS와 BFS.cpp" />
   </ItemGroup>
 </Project>
