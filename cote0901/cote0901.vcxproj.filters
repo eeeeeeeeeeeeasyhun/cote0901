@@ -74,5 +74,11 @@
     <ClCompile Include="프로그래머스 멀리뛰기cpp.cpp" />
     <ClCompile Include="프로그래머스 [1차]캐시.cpp" />
     <ClCompile Include="백준 1260 DFS와 BFS.cpp" />
+    <ClCompile Include="프로그래머스 가장 먼 노드.cpp" />
+    <ClCompile Include="프로그래머스 네트워크.cpp" />
+    <ClCompile Include="백준 2775 부녀회장이 될테야.cpp" />
+    <ClCompile Include="백준 1932 정수삼각형.cpp" />
+    <ClCompile Include="sadfasdfqwerr.cpp" />
+    <ClCompile Include="백준 트리의 순회.cpp" />
   </ItemGroup>
 </Project>
