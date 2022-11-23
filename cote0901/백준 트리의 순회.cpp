@@ -12,7 +12,7 @@ typedef struct node {
 	struct node* right;
 }node;
 
-
+               
 string msg = "ABCEDF";
 node input[50001];
 
