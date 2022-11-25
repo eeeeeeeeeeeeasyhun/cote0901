@@ -80,5 +80,7 @@
     <ClCompile Include="백준 1932 정수삼각형.cpp" />
     <ClCompile Include="sadfasdfqwerr.cpp" />
     <ClCompile Include="백준 트리의 순회.cpp" />
+    <ClCompile Include="프로그래머스 단어변환cpp.cpp" />
+    <ClCompile Include="프로그래머스 등굣길.cpp" />
   </ItemGroup>
 </Project>

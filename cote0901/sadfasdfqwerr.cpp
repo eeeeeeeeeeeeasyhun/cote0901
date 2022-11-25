@@ -50,18 +50,15 @@ vector<string> solution(vector<string> movie)
 int main()
 {
 	vector<string> v2;
-	//v2.push_back("spy");
-	//v2.push_back("ray");
-	//v2.push_back("spy");
-	//v2.push_back("room");
-	//v2.push_back("once");
-	//v2.push_back("ray");
-	//v2.push_back("spy");  
-	//v2.push_back("once");
-	v2.push_back("b");
-	v2.push_back("b");
-	v2.push_back("a");
-	v2.push_back("a");
+	v2.push_back("spy");
+	v2.push_back("ray");
+	v2.push_back("spy");
+	v2.push_back("room");
+	v2.push_back("once");
+	v2.push_back("ray");
+	v2.push_back("spy");  
+	v2.push_back("once");
+
 
 	//spy 3 ray 2 room 1 once 2
 
