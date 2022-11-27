@@ -15,7 +15,7 @@ int solution(int m, int n, vector<vector<int>> puddles)
         int iY = puddles[i][1]; //¿õµ¢ÀÌÁÂÇ¥
         dp[iY][iX] = -1;
     }
-
+        
     for (int i = 1; i <= n; i++)
     {
         for (int j = 1; j <= m; j++)
