@@ -44,7 +44,7 @@ vector<string> solution(vector<string> movie)
 	}
 
 	return ans;
-}
+}                        
 
 
 int main()
