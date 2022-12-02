@@ -82,5 +82,7 @@
     <ClCompile Include="백준 트리의 순회.cpp" />
     <ClCompile Include="프로그래머스 단어변환cpp.cpp" />
     <ClCompile Include="프로그래머스 등굣길.cpp" />
+    <ClCompile Include="프로그래머스 숫자게임.cpp" />
+    <ClCompile Include="프로그래머스 기지국설치.cpp" />
   </ItemGroup>
 </Project>
