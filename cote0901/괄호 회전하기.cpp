@@ -11,7 +11,7 @@ int solution(string s)
     for (int i = 0; i < s.length(); i++)
     {
         for (int j = 0; j < s.length(); j++)
-        {
+        {  
             if ();
 
             else if (s[i] == '[')
