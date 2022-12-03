@@ -22,4 +22,4 @@ int solution(int n, vector<int> stations, int w)
     }
 
     return answer;
-}
+}     
