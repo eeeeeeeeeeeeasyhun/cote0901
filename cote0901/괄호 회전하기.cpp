@@ -24,7 +24,7 @@ int solution(string s)
                 s1.push('{');
 
 
-            else if (s[i] == ']' && s1.top() == '[')
+            else if (s[i] == ']' && s1.top() == '[') 
             {
                 s1.pop();
             }
