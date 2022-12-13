@@ -87,5 +87,6 @@
     <ClCompile Include="프로그래머스 보석 쇼핑.cpp" />
     <ClCompile Include="프로그래머스 징검다리cpp.cpp" />
     <ClCompile Include="프로그래머스 스티커모으기.cpp" />
+    <ClCompile Include="프로그래머스 섬 연결하기.cpp" />
   </ItemGroup>
 </Project>
