@@ -1,42 +1,38 @@
+#include <cstring>
 #include <string>
-#include <vector>
-#include <set>
-#include <utility>
-
 using namespace std;
 
-int solution(string dirs) {
-    int to[2];
-    int from[2];
-    int x = 0, y = 0;
-    set<pair<pair<int, int>, pair<int, int>>> answer;
+int dy[4] = {0, 0, 1, -1}; // R - L - D - U
+int dx[4] = {1, -1, 0, 0};
+bool check[11][11][11][11] = {0};
 
-    for (const auto& d : dirs) {
-        from[0] = x;
-        from[1] = y;
-        
-        if (d == 'L' && x > -5) {
-            x--;
-        }
-        else if (d == 'U' && y < 5) {
-            y++;
-        }
-        else if (d == 'R' && x < 5) {
-            x++;
-        }
-        else if (d == 'D' && y > -5) {
-            y--;
-        }
-        else { // 이미 초과한 범위에 대한 예외처리
+int solution(string dirs)
+{
+    int answer = 0;
+
+    int y = 5;
+    int x = 5;
+
+    memset(check, false, sizeof(check));
+    for(int i=0; i<dirs.length(); ++i) {
+        int dir;
+        if(dirs[i]=='R') dir = 0;
+        else if(dirs[i]=='L') dir = 1;
+        else if(dirs[i]=='D') dir = 2;
+        else if(dirs[i]=='U') dir = 3;
+
+        int ny = y + dy[dir];
+        int nx = x + dx[dir];
+        if(ny < 0 || nx < 0 || ny > 10 || nx > 10) {
             continue;
         }
-        
-        to[0] = x;
-        to[1] = y;
-        
-        answer.insert(make_pair(make_pair(to[0], to[1]), make_pair(from[0], from[1])));
-        answer.insert(make_pair(make_pair(from[0], from[1]), make_pair(to[0], to[1])));
+        if(!check[y][x][ny][nx]) {
+            answer++;
+            check[y][x][ny][nx] = check[ny][nx][y][x] = true;
+        }
+        y = ny;
+        x = nx;
     }
-    
-    return answer.size() / 2;
+
+    return answer;
 }
